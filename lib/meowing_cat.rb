@@ -2,8 +2,9 @@
 class Cat
 attr_accessor :Cat
 
-def name=(name)
-  @name= name
+attr_writer :name
+attr_reader :name
+
 end
 def meow
   puts "meow!"
