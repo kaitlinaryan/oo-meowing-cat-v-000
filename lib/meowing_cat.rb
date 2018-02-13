@@ -4,7 +4,7 @@ attr_accessor :Cat
 
 def name=(name)
   @name= name
-end 
+end
 def meow
   puts "meow"
 end
